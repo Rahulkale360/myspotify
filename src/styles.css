@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+*{
+    margin : 0;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    
+}
+
+.heading{
+    display: grid;
+    place-items: center;
+     color: white;
+
+ }
+
+ .desc-area{
+     background-color: black !important;
+     color: white;
+     font-weight: 800px;
+ }
+
+ .bg-dark{
+     background-color: black !important;
+     color: white !important;
+ }
+
+
