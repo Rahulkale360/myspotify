@@ -3,11 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-    production: false,
-    spotifySecret: 'b94e7c4937f7405283070ee56b44a479',
+
+  production: true,
+    spotifySecret: '856339afa07c4bafb0763466e92055d1',
     authUrl : "https://accounts.spotify.com/authorize",
-    redirectUrl : "http://localhost:4200/home",
-    clientId : "48f4fa8b23be472a9a8de596aa8344b1",
+    redirectUrl : "http://musicspotify.herokuapp.com/home",
+    clientId : "ddb79c4c0f884b5a8d1b6d29b2310671",
     scopes : [
       "user-read-currently-playing",
       "user-read-currently-played",
@@ -15,10 +16,24 @@ export const environment = {
       "user-top-read",
       "user-modify-playback-state",
     ]
+
   
-    
-  };
+  // production: false,
+  // spotifySecret: 'b94e7c4937f7405283070ee56b44a479',
+  // authUrl : "https://accounts.spotify.com/authorize",
+  // redirectUrl : "http://localhost:4200/home",
+  // clientId : "48f4fa8b23be472a9a8de596aa8344b1",
+  // scopes : [
+  //   "user-read-currently-playing",
+  //   "user-read-currently-played",
+  //   "user-read-playback-state",
+  //   "user-top-read",
+  //   "user-modify-playback-state",
+  // ]
+
   
+};
+
 
 /*
  * For easier debugging in development mode, you can import the following file
